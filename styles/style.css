@@ -101,6 +101,10 @@ a {
     border: none;
   }
 
+  #toggle:checked ~ .menu {
+    max-height: 100%;
+  }
+
   .icon {
     display: block;
   }
@@ -120,9 +124,5 @@ a {
     display: inline-flex;
     align-items: center;
     cursor: pointer;
-  }
-
-  #toggle:checked ~ .menu {
-    max-height: 100%;
   }
 }
